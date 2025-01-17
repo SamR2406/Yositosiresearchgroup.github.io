@@ -1,0 +1,92 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+header {
+    background-color: #555;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+header img {
+    width: 50%;
+    height: auto;
+}
+
+header h1 {
+    margin: 0.5rem 0;
+}
+
+main section {
+    padding: 2rem;
+}
+
+section:nth-child(odd) {
+    background-color: #ddd;
+}
+
+section:nth-child(even) {
+    background-color: #bbb;
+}
+
+section img {
+    display: block;
+    margin: 1rem auto;
+    max-width: 100%;
+    height: auto;
+}
+
+footer {
+    background-color: #555;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+footer img {
+    width: 100%;
+    height: auto;
+}
+
+footer p {
+    margin: 0.5rem 0 0;
+}
+
+@media (max-width: 768px) {
+    body {
+        font-size: 14px; 
+    }
+
+    header img {
+        width: 100%; 
+    }
+
+    main section {
+        padding: 1rem; 
+    }
+
+    ul {
+        padding-left: 1rem; 
+    }
+}
+button.pdf-button {
+    background-color: #555;
+    color: white;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+button.pdf-button:hover {
+    background-color: #333;
+}
+
+button.pdf-button:active {
+    background-color: #777;
+}
